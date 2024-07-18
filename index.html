@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" href="portfolio_10661829.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/0d8c6deebc.js" crossorigin="anonymous"></script>
+</head>
+ 
+<body>
+    <div id="header">
+        <div class="container">
+             <nav>
+                <h3>PORTFOLIO.</h3>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> </p>
+                <h1>Hi Guys</h1>
+                <h2>I am<span> Badusha P</span></h2>
+                <h3>I am a <span class="text" style="color: #03d236;"> </span></h3>
+                <h3>
+                    I’m a passionate Web developer with a focus on Responsive and Dynamic Web development.
+                    I specialize in creating [type of websites or applications, e.g responsive websites,
+                    interactive web applications] that provide excellent user experiences and solve real-world problems.
+                    
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!---About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="dp.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        <span style="color: #00ff6e;">About</span> Me</h1>
+                    <p>My name is Badusha, and I'm from Malappuram in Kerala, India. I recently graduated Degree in Bsc Zoology from MES Mampad College. My journey into coding started back in the 11th grade, and I've been passionate about it ever since. I've learned a variety of programming languages and technologies, including C++, C, HTML, CSS, Bootstrap, JavaScript, and Java.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Programming Languages And Database
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        <p class="tab-links" onclick="opentab('software')">Software</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>HTML</span><br>
+                            </li>
+                            <li>
+                                <span>CSS</span><br>
+                            </li>
+                            <li>
+                                <span>Java Script</span><br>
+                            </li>
+                            <li>
+                                <span>C++</span><br>
+                            </li>
+                            <li>
+                                <span>Bootstrap</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>MES Mampad College</span><br>Bachelor of Zoology
+                                (2024)<br>
+
+                            </li>
+                           
+                            <li>
+                                <span>HMY HSS Manjeri</span><br>HSE(2021)<br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="software">
+                        <ul>
+                            <li>
+                                <span>ADOBE PHOTOSHOP</span>
+
+                            </li>
+                            <li>
+                                <span>CANVA</span>
+                            </li>
+                            <li>
+                                <span>POWERPOINT</span>
+                            </li>
+                            <li>
+                                <span>VS CODE</span>
+                            </li>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!--Skills------------------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">
+                SKILLS
+            </h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-brands fa-connectdevelop"></i>
+                    <h2>FRONT-END DEVELOPMENT</h2>
+                    <p>HTML ,CSS , JAVASCRIPT AND Bootstrap</p>
+                </div>
+        </div>
+    </div>
+    
+    <!-------------PORTFOLIO--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                MY PROJECTS
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="linkedin.png">
+                    <div class="layer">
+                        <h3>Linked in Login Page</h3>
+                        <p>LinkedIn allows members (both workers and employers) to create profiles and connect with each other in an online social network which may represent real-world professional relationships. Members can invite anyone (whether an existing member or not) to become a connection. LinkedIn can also be used to organize offline events, join groups, write articles, publish job postings, post photos and videos, and more.</p>
+                        <a href="https://github.com/badusha6555/linkedin.git" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+           
+
+        <!----------------Cintact----------------------------------->
+        <div id="contact">
+
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact<span style="color: #00ff6e;"> Me</span> </h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>badusha524454@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone-volume"></i>
+                            9400434975
+                        </p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/badushapk_/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/badusha-p-b26a0230a/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        
+                            </div>
+
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-solid fa-heart"></i> THANK YOU</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+
+
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML="Message Sent Successfully"
+                        setTimeout(function(){
+                            msg.innerHTML=""
+                        },1000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+        <script src="port.js"></script>
+
+</body>
+
+</html>
